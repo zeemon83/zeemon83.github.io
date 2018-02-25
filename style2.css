@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Cutive+Mono|Nova+Cut|Overpass+Mono|Share+Tech+Mono');
+body, html {
+	margin: 0;
+	padding: 0;
+	/* background-color: #f4f4f4; */
+
+	max-width: 1500px;
+	margin: auto;
+
+}
+html {
+	height: 100%;
+}
+nav {
+
+	background-color: #f4f4f4;
+	padding: .5% 2%;
+}
+a, p {
+	text-decoration: none;
+	color: black;
+	font-family:'Cutive Mono', helvetica sans-serif ;
+
+
+}
+h1 {
+	font-family:'Cutive Mono', helvetica sans-serif ;
+}
+h1 {
+	margin:6.5px 0;
+}
+
+main {
+	margin-top: 59px;
+	/* background-color: pink; */
+	min-height: calc(100vh - 110px);
+
+}
+
+footer {
+	height: 110px;
+	background-color:  #f4f4f4;
+	text-align: center;
+}
+
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+
+/* html,body        {height: 100%;} */
+
+
+
+
+
+/* NAV MENU ======================= */
+
+nav a, h1, .white-bk {
+	background-color: white;
+}
+.nav-box a {
+	display: inline-block;
+
+	vertical-align: bottom;
+
+
+	/* width: 30%; */
+}
+
+
+.nav-h1 {
+	font-size: 2em;
+	padding-right: 10px;
+	padding-left: 5px;
+	/* margin-right: 65px; */
+}
+.nav-a {
+
+	font-size: 1em;
+	padding: 16px 7px;
+	/* margin-right: 15px; */
+}
+
+/*PARALAX WINDOW jquery ================== */
+.parallax-window {
+	/* min-height: 200px; */
+	background: transparent;
+	z-index: 300;
+}
+.iframe-marg {
+	margin: 10% 0 20% 0;
+
+}
+
+.parallax-marg {
+	margin: 12% 0;
+
+}
+
+/*containers ================== */
+.container{
+	/* background-image: url(img/zeemo-back.jpg); */
+	background-size: 400px;
+	background-position: left;
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 40px;
+  grid-auto-rows: minmax(100px, auto);
+	text-align: justify;
+	padding: 0 2%;
+	}
+
+.container-2{
+
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 40px;
+
+}
+
+.container3 {
+	/* background-image: url(img/zeemo-back.jpg); */
+	/* background-size: 300px; */
+
+	background-position: left;
+	display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  grid-auto-rows: minmax(100px, auto);
+	text-align: justify;
+	padding: 0 2%;
+	}
+
+.container-gallery {
+	/* background-image: url(img/zeemo-back.jpg); */
+	background-size: 300px;
+	background-position: left;
+	display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 40px; */
+  /* grid-auto-rows: minmax(100px, auto); */
+	text-align: justify;
+	padding: 0 0;
+	}
+
+
+	.container3 .text2, .container3 .text3 {
+		/* background-color: white; */
+	}
+
+.text {
+
+	grid-column: 1 / 1;
+  grid-row: 1;
+	margin: auto;
+}
+/* .text2 {
+
+	grid-column: 1/ 2;
+  grid-row: 1;
+}
+.text3 {
+
+	grid-column: 2/ 2;
+  grid-row: 1;
+} */
+/* .gallery-1 {
+
+	grid-column: 1/ 3;
+  grid-row: 1;
+
+}
+.gallery-2 {
+	grid-column: 2/ 3;
+  grid-row: 1;
+
+}
+.gallery-3 {
+	grid-column: 3/ 3;
+  grid-row: 1;
+
+} */
+
+.img-col {
+	width: 100%;
+}
+
+.text-col {
+	padding: 3%;
+	width: 90%;
+}
+
+.p-background {
+	/* margin: 15% 0; */
+
+
+	max-width: 700px;
+	box-shadow:
+	#473b0a 1px 7px 13px -4px,
+
+						#82712d 4px  9px 20px -5px;
+
+
+
+}
+
+ .vid {
+	 grid-column: 1 /1;
+   grid-row: 1;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+
+
+ .vid iframe {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+}
+
+.mixx {
+	margin: -5px 0;
+}
+
+.mainbody {
+
+
+	/* text-align: center; */
+	padding-left: 2%;
+	line-height: .5;
+}
+
+
+
+.player {
+	height: 600px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+
+
+}
+
+.submit-box {
+	font-family:'Kavivanar', helvetica sans-serif ;
+	margin: 0 0 0 2%;
+}
+#backPic {
+	/* background-color: darkgrey; */
+	padding: 30% 0;
+	margin: 2%;
+	text-align: center;
+}
+
+/* #backPic p {
+	background-color: black;
+	color: white;
+
+} */
+/* ====================  */
+/* sticky menu bar */
+#uberbar    {
+	max-width: 1439px;
+     margin: auto;
+    /*border-bottom:1px solid #d8d8d8; */
+    /* background: white; */
+		background-color: #f4f4f4;
+    /* padding:10px 20px; */
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    z-index:2000;
+    width: 100%;
+    margin: auto;
+    /* background-color: coral; */
+
+}
+
+/* ================ */
+/* FOOTER FOOTER */
+
+
+#parent {
+	display: table;
+	width: 100%;
+
+}
+
+#child {
+	display: table-cell;
+	vertical-align: middle;
+}
+.link-png {
+	height: 15px;
+	padding: 5px;
+	opacity: .8;
+	/* display: inline-block; */
+
+	vertical-align: text-bottom;
+
+}
+/* Image Slider  */
+
+
+/* MEDIA QUERIES ================ */
+
+@media (max-width: 769px) {
+	.navnav {
+		display: block;
+		margin-right: 490px;
+	}
+	.nav-a {
+		display: inline;
+		margin: 0;
+		padding: 5px;
+
+		vertical-align: bottom;
+		/* width: 30%; */
+	}
+
+nav {
+	/* padding-right: 210px; */
+}
+
+h1, a {
+	/* margin: 0; */
+}
+
+main {
+	margin-top: 80px;
+}
+.container-gallery {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+@media (max-width: 500px) {
+	.nav-a {
+		font-size: 0.9em;
+	}
+}
