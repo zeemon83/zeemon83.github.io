@@ -336,7 +336,7 @@ nav a, h1 {
 @media (max-width: 769px) {
 	.navnav {
 		display: block;
-		margin-right: 59s0px;
+		margin-right: 590px;
 	}
 	.nav-a {
 		display: inline;
@@ -366,6 +366,15 @@ main {
 
 @media (max-width: 500px) {
 	.nav-a {
-		font-size: 1.1em;
+		font-size: 0.9em;
+	}
+
+
+}
+
+@media (max-width: 298px) {
+
+	.nav-a {
+		font-size: 0.7em;
 	}
 }
