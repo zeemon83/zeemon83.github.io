@@ -1,47 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar|Cutive+Mono');
-
+* {
+	box-sizing: border-box;
+}
 body, html {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 video {
 	/* background-image: url(img/profile2.jpg); */
 	position: absolute;
-
-
-
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	min-width: 100vh;
-	min-height: 100vh;
-	width: auto;
-	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	/* width: auto;
+	height: auto; */
 	z-index: 1;
+	overflow: hidden;
 
-	}
+}
+
+.container {
+	position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100vh;
+overflow:hidden;
+}
+
+
 a {
 	text-decoration: none;
 	color: #d6d6d6;
 	line-height: -1.9em;
 }
+
+
+
 h1 {
 	margin: 0;
 }
 
 
-#parent {
-	/* display: table;
-	min-width: 100vw;
-	min-height: 100vh; */
 
-}
 
 
 #child {
 	z-index: 2;
-	/* background-color: #919191; */
-
 	font-family:'Cutive Mono', helvetica sans-serif ;
 	line-height: .7em;
 	color: white;
@@ -50,7 +59,7 @@ h1 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	z-index: 2;
+
 	position: absolute ;
 
 	display: flex;
