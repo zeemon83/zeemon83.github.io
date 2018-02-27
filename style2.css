@@ -17,12 +17,17 @@ nav {
 	background-color: #f4f4f4;
 	padding: .5% 2%;
 }
-a, p {
+a, p, li {
 	text-decoration: none;
 	color: black;
 	font-family:'Cutive Mono', helvetica sans-serif ;
-
-
+}
+ul {
+	padding: 0;
+	 list-style-type: none;
+}
+li {
+	margin: 1em 0;
 }
 h1 {
 	font-family:'Cutive Mono', helvetica sans-serif ;
@@ -34,7 +39,7 @@ h1 {
 main {
 	margin-top: 59px;
 	/* background-color: pink; */
-	min-height: calc(100vh - 110px);
+	min-height: calc(100vh - 169px);
 
 }
 
@@ -54,6 +59,17 @@ video {
 	width: auto;
 	height: auto;
 	z-index: 1;
+}
+#button {
+	padding: 1%;
+	color: red;
+	border-color: red;
+	background-color: gold;
+	border-radius: 5%;
+	font-family:'Cutive Mono', helvetica sans-serif ;
+	font-size: 1em;
+	margin-top: 200px;
+
 }
 
 /* html,body        {height: 100%;} */
@@ -134,7 +150,7 @@ nav a, h1 {
 	background-position: left;
 	display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 40px;
+  /* grid-gap: 40px; */
   grid-auto-rows: minmax(100px, auto);
 	text-align: justify;
 	padding: 0 8%;
@@ -181,11 +197,13 @@ nav a, h1 {
 	max-width: 350px;
 }
 
+
+
 .white-bk {
 	/* font-size: 1.2em; */
 	background-color: white;
-	text-decoration: line-through;
-	text-decoration-color: red;
+	/* text-decoration: line-through;
+	text-decoration-color: red; */
 }
 
 .text {
@@ -201,7 +219,7 @@ nav a, h1 {
 }
 
 .text-col {
-	padding: 3%;
+	padding: 3% 6% 0 6%;
 	width: 90%;
 }
 
@@ -269,15 +287,16 @@ nav a, h1 {
 
 }
 
-.submit-box {
-	font-family:'Kavivanar', helvetica sans-serif ;
-	margin: 0 0 0 2%;
-}
+
 #backPic {
-	/* background-color: darkgrey; */
-	padding: 30% 0;
-	margin: 2%;
+
+
 	text-align: center;
+}
+#img {
+	max-width: 300px;
+	padding-top: 3%;
+	/* max-width: 500px; */
 }
 
 /* #backPic p {
@@ -328,6 +347,11 @@ nav a, h1 {
 	vertical-align: text-bottom;
 
 }
+
+#exception {
+	text-decoration: none;
+	background-color: white;
+}
 /* Image Slider  */
 
 
@@ -361,6 +385,11 @@ main {
 .container-gallery {
 	grid-template-columns: repeat(1, 1fr);
 }
+#img {
+	max-width: 250px;
+	padding-top: 3%;
+	/* max-width: 500px; */
+}
 
 }
 
@@ -368,7 +397,15 @@ main {
 	.nav-a {
 		font-size: 0.9em;
 	}
+	#img {
+		max-width: 250px;
+		padding-top: 3%;
+		/* max-width: 500px; */
+	}
+	#button {
 
+		margin-top: 150px;
+	}
 
 }
 
