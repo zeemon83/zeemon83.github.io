@@ -62,13 +62,13 @@ video {
 }
 #button {
 	padding: 1%;
-	color: red;
-	border-color: red;
-	background-color: gold;
+	color: #ff5959;
+	/* border-color: #751100; */
+	background-color: #ffd059;
 	border-radius: 5%;
 	font-family:'Cutive Mono', helvetica sans-serif ;
 	font-size: 1em;
-	margin-top: 200px;
+	margin-top: 494px;
 
 }
 
