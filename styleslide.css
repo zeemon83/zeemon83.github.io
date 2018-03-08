@@ -23,7 +23,7 @@ body, html, .wrap, .slide-content {
 }
 
 .slide1 {
-  background-image: url('img/zeemo-landed.jpg');
+  background-image: url('img/profile2.jpg');
   }
 
 .slide2 {
@@ -31,7 +31,7 @@ body, html, .wrap, .slide-content {
   }
 
 .slide3 {
-  background-image: url('img/profile2.jpg');
+  background-image: url('img/zeemo-landed.jpg');
   }
 
 .slide4 {
@@ -64,6 +64,7 @@ body, html, .wrap, .slide-content {
   width: 0;
   height: 0;
   border-style: solid;
+
 }
 
 #arrow-left {
@@ -72,6 +73,7 @@ body, html, .wrap, .slide-content {
   border-color: transparent #fff transparent transparent;
   left: 0;
   margin-left: 30px;
+
 }
 
 #arrow-right {
