@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
   } else {
     img.src = '';
     address.innerHTML = '';
-    button.style.marginTop = '200px';
+    button.style.marginTop = '494px';
 
   }
 
