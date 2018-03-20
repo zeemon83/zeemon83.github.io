@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Cutive+Mono|Nova+Cut|Overpass+Mono|Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Kavivanar|Cutive+Mono|Nova+Cut|Overpass+Mono|Share+Tech+Mono');
 body, html {
 	margin: 0;
 	padding: 0;
@@ -67,6 +66,11 @@ video {
 
 nav a, h1 {
 	background-color: white;
+
+}
+
+nav a {
+	box-shadow: #cccccc 1px 1px 1px ;
 }
 .nav-box a {
 	display: inline-block;
@@ -212,23 +216,67 @@ nav a, h1 {
 }
 
 /* =====cards===== */
-.overlay:hover {
-	opacity:1;
+.over {
+display: none;
 }
 .overlay {
-	/* display: none; */
-	font-size: 1.3em;
-	color: white;
-	background-color: black;
+	padding: 5%;
+	font-size: 2.9em;
+	font-family: 'Cutive Mono';
+	text-shadow: white 1px 1px 12px,
+	 						 white -1px -1px 12px,
+							 white -13px -13px 19px,
+							 white -19px -19px 42px,
+							 white 21px 21px 12px;
 	height: 37.19%;
 	margin: 0;
+	text-transform: uppercase;
 	overflow: none;
 	text-align: justify;
 	position: absolute;
 	z-index: 2;
-	opacity: .1;
-	transition: opacity .95s ease-in-out;
+	opacity: 0;
+}
+.myframes {
+	animation-name: myframes;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
 
+@keyframes myframes {
+  from {
+    opacity: 0;
+	}
+
+  to {
+
+    opacity: 1;
+	}
+}
+
+.myframes2 {
+	animation-name: myframes;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 7;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes myframes2 {
+  from {
+    opacity: 1;
+	}
+
+  to {
+
+    opacity: 0;
+	}
 }
 
 .p-background {
@@ -330,6 +378,7 @@ padding-top: 20px;
      margin: auto;
     /*border-bottom:1px solid #d8d8d8; */
     /* background: white; */
+		/* background-color: #e5e5e5; */
 		background-color: #f4f4f4;
     /* padding:10px 20px; */
     position:fixed;
@@ -410,6 +459,8 @@ main {
 	/* max-width: 500px; */
 }
 
+
+
 }
 
 @media (max-width: 500px) {
@@ -425,6 +476,8 @@ main {
 
 		/* margin-top: 150px; */
 	}
+
+
 
 }
 
