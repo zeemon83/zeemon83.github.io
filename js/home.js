@@ -1,8 +1,9 @@
-const cancelled = document.getElementsByClassName('cancelled');
-const white = document.getElementsByClassName('white-bk');
-const itemPad = document.getElementById('tour');
+
 const contain3 = document.querySelector('.container3');
-const itemDiv = document.querySelector('.item-pad');
+const cards = document.querySelector('.cards');
+const overlay = document.querySelector('.overlay');
+const cardo = document.getElementById('cardo');
+const cardio = document.getElementById('cardio');
 
 contain3.addEventListener('mouseover', (event) => {
   if (event.target.tagName == 'LI') {
@@ -23,24 +24,28 @@ contain3.addEventListener('mouseover', (event) => {
 
 });
 
-
-
-
-
-
-
-
-// function noShow() {
-//   for (var i = 0; i < white.length; i++) {
-//     white[i].style.textDecoration = 'line-through';
-//     white[i].style.textDecorationColor = 'red';
-//   }
+// cardo.addEventListener('mouseover', () => {
+//     cardio.className += ' myframes';
+//     cardio.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit,';
 //
-//   for (var i = 0; i < cancelled.length; i++) {
-//     cancelled[i].innerHTML = 'cancelled';
-//     cancelled[i].style.textTransform = 'uppercase';
-//   }
+// });
 //
-// }
+// cardo.addEventListener('mouseout', () => {
 //
-// itemPad.addEventListener('mouseover', noShow);
+//     cardio.innerHTML = '';
+//     cardio.className -= ' myframes';
+//     cardio.className += ' overlay';
+//
+// });
+
+// cards.addEventListener('mouseover', () => {
+//
+//     overlay.style.display = 'block';
+//
+// });
+//
+// cards.addEventListener('mouseout', () => {
+//
+//     overlay.style.display = 'none';
+//
+// });
