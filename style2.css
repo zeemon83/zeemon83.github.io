@@ -187,7 +187,9 @@ nav a {
 	padding: 4%;
 	max-width: 350px;
 }
-
+.item-pad ul {
+	min-width: 250px;
+}
 
 
 .white-bk {
