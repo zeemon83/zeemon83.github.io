@@ -548,9 +548,14 @@ main {
 
 }
 
-@media (max-width: 298px) {
+@media (max-width: 398px) {
 
 	.nav-a {
 		font-size: 0.7em;
+	}
+
+	.media-links a {
+		font-size: 0.5em;
+		padding:0  1px;
 	}
 }
