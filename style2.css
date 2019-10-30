@@ -4,7 +4,7 @@ body, html {
 	padding: 0;
 	/* background-color: #f4f4f4; */
 
-	max-width: 1500px;
+	max-width: ;
 	margin: auto;
 
 }
@@ -36,7 +36,7 @@ h1 {
 }
 
 main {
-	margin-top: 59px;
+	margin-top: 43px;
 	/* background-color: pink; */
 	min-height: calc(100vh - 169px);
 
@@ -83,7 +83,7 @@ nav a {
 
 
 .nav-h1 {
-	font-size: 2em;
+	font-size: 1.2em;
 	padding-right: 10px;
 	padding-left: 5px;
 	/* margin-right: 65px; */
@@ -91,9 +91,30 @@ nav a {
 .nav-a {
 
 	font-size: 1em;
-	padding: 16px 7px;
+	padding: 7px 7px;
 	/* margin-right: 15px; */
 }
+
+/* sticky menu bar */
+#uberbar    {
+	
+	margin: auto;
+   /*border-bottom:1px solid #d8d8d8; */
+   /* background: white; */
+	   /* background-color: #e5e5e5; */
+	   background-color: #f4f4f4;
+   /* padding:10px 20px; */
+   position:fixed;
+   top:0;
+   left:0;
+   right: 0;
+   z-index:2000;
+   width: 100%;
+   margin: auto;
+   /* background-color: coral; */
+
+}
+
 
 /*PARALAX WINDOW jquery ================== */
 .parallax-window {
@@ -102,7 +123,7 @@ nav a {
 	z-index: 300;
 }
 .iframe-marg {
-	margin: 10% 0 20% 0;
+	margin:40% 0;
 
 }
 
@@ -168,7 +189,7 @@ nav a {
 	background-size: 300px;
 	background-position: left;
 	display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   /* grid-gap: 40px; */
   /* grid-auto-rows: minmax(100px, auto); */
 	text-align: justify;
@@ -374,25 +395,6 @@ padding-top: 20px;
 
 } */
 /* ====================  */
-/* sticky menu bar */
-#uberbar    {
-	max-width: 1439px;
-     margin: auto;
-    /*border-bottom:1px solid #d8d8d8; */
-    /* background: white; */
-		/* background-color: #e5e5e5; */
-		background-color: #f4f4f4;
-    /* padding:10px 20px; */
-    position:fixed;
-    top:0;
-    left:0;
-    right: 0;
-    z-index:2000;
-    width: 100%;
-    margin: auto;
-    /* background-color: coral; */
-
-}
 
 /* ================ */
 /* FOOTER FOOTER */
@@ -417,6 +419,15 @@ padding-top: 20px;
 	vertical-align: text-bottom;
 
 }
+.media-links {
+	display: inline-flex;
+	
+} 
+.media-links a {
+	font-size: 0.7em;
+	padding:0  20px;
+}
+	
 
 #exception {
 	text-decoration: none;
@@ -495,7 +506,7 @@ h1, a {
 }
 
 main {
-	margin-top: 57px;
+	margin-top: 41px;
 }
 .container-gallery {
 	grid-template-columns: repeat(1, 1fr);
@@ -506,13 +517,18 @@ main {
 	/* max-width: 500px; */
 }
 
+.media-links a {
+	font-size: 0.6em;
+	padding:0  10px;
+}
+
 
 
 }
 
 @media (max-width: 500px) {
 	main {
-		margin-top: 55px;
+		margin-top: 39px;
 	}
 
 	.nav-a {
