@@ -4,10 +4,23 @@ body, html {
 	padding: 0;
 	/* background-color: #f4f4f4; */
 
-	max-width: ;
+	
 	margin: auto;
+	
 
 }
+
+.maxwide {
+	max-width: 1600px;
+	margin: auto;
+	
+}
+.maxbackground {
+	/* background-image: url(img/zeemo-back4.png);
+	background-size: cover; */
+	background-color: #ffd220;
+	
+	 }
 html {
 	height: 100%;
 }
@@ -43,7 +56,7 @@ main {
 }
 
 footer {
-	height: 110px;
+	height: 210px;
 	background-color:  #f4f4f4;
 	text-align: center;
 }
@@ -127,6 +140,15 @@ nav a {
 
 }
 
+.iframe-marg{
+	transition: 2000ms;
+	transition-timing-function: ease-in-out;
+}
+.iframe-marg:hover {
+/* 	
+	transform: rotate(360deg); */
+}
+
 .parallax-marg {
 	margin: 12% 0;
 
@@ -150,8 +172,19 @@ nav a {
 .container-2{
 
 	display: grid;
-  grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: repeat(1, 1fr);
+	
+	
+	
   /* grid-gap: 40px; */
+
+}
+
+.container-double {
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
 
 }
 
@@ -309,13 +342,15 @@ display: none;
 }
 
  .vid {
-	 grid-column: 1 /1;
-   grid-row: 1;
+	 /* grid-column: 1 /2;
+   grid-row: 1; */
 	width: 100%;
 	height: 0;
 	padding-bottom: 56.25%;
 	position: relative;
 }
+
+
 
 
 
@@ -508,7 +543,7 @@ h1, a {
 main {
 	margin-top: 41px;
 }
-.container-gallery {
+.container-gallery, .container-double {
 	grid-template-columns: repeat(1, 1fr);
 }
 #img {
